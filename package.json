@@ -1,28 +1,28 @@
 {
-  "name": "PWA-Budget-Tracker",
+  "name": "budget-tracker",
   "version": "1.0.0",
   "description": "Progressive Web Application Budget Tracker",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jcw2865/PWA-Budget-Tracker.git"
+    "url": "git+https://github.com/mekditd/Online-Offline-Budget-Trackers.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jcw2865/PWA-Budget-Tracker/issues"
+    "url": "https://github.com/mekditd/Online-Offline-Budget-Trackers/issues"
   },
-  "homepage": "https://github.com/jcw2865/PWA-Budget-Tracker#readme",
+  "homepage": "https://github.com/mekditd/Online-Offline-Budget-Trackers#readme",
   "dependencies": {
     "chart": "^0.1.2",
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "lite-server": "^2.5.4",
-    "mongoose": "^5.9.1",
+    "mongoose": "^5.9.4",
     "morgan": "^1.9.1"
   }
 }
